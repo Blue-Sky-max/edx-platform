@@ -1,0 +1,8 @@
+#include<cs50.h>
+#include<stdio.h>
+
+int main(void)
+{
+   int age = get_int("What's your name?\n");
+   printf("You are atleast %i days old.\n",age*365);
+}
